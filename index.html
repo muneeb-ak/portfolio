@@ -159,9 +159,11 @@
             position: relative;
             transition: var(--transition);
         }
-        body {
-  overflow-x: hidden;
-}
+
+        body,
+        html {
+            overflow-x: hidden;
+        }
 
         .nav-links li a::after {
             content: '';
@@ -186,6 +188,7 @@
             display: none;
             cursor: pointer;
             font-size: 1.5rem;
+            margin-right: 30px;
         }
 
         /* Hero Section */
@@ -234,7 +237,7 @@
             /* animation: slideUp 10s infinite; */
         }
 
-        @keyframes slideUp {
+        /* @keyframes slideUp {
 
             0%,
             20% {
@@ -260,7 +263,7 @@
                 transform: translateY(-240px);
             }
         }
-
+ */
         .hero-text p {
             font-size: 1.1rem;
             margin-bottom: 30px;
@@ -908,6 +911,10 @@
             pre {
                 font-size: 0.8rem;
             }
+
+            .contact-container {
+                width: 80%;
+            }
         }
     </style>
 </head>
@@ -917,7 +924,7 @@
     <header id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="logo">Muneeb</a>
+                <a href="#" class="logo">Muneeb<span>Ahmed</span></a>
                 <ul class="nav-links">
                     <li><a href="#home" class="active">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -1191,11 +1198,13 @@
                     </div>
                     <div class="project-info">
                         <h3>E-commerce Website</h3>
-                        <p>A modern e-commerce platform featuring product listings, cart functionality, and a seamless shopping experience.
+                        <p>A modern e-commerce platform featuring product listings, cart functionality, and a seamless
+                            shopping experience.
                             Includes core logic and functionalities with impressive UI.
                         </p>
                         <div class="project-links">
-                            <a href="https://ecommerce-website-rho-liard.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://ecommerce-website-rho-liard.vercel.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
                             <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> View Code</a> -->
                         </div>
                     </div>
@@ -1206,11 +1215,13 @@
                     </div>
                     <div class="project-info">
                         <h3>Job Portal App</h3>
-                        <p>Created a dynamic job portal allowing users to explore job listings with clean filtering and search features.
+                        <p>Created a dynamic job portal allowing users to explore job listings with clean filtering and
+                            search features.
                             A responsive layout for both job seekers and employers.
-</p>
+                        </p>
                         <div class="project-links">
-                            <a href="https://job-portal-three-delta.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://job-portal-three-delta.vercel.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
                             <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> View Code</a> -->
                         </div>
                     </div>
@@ -1221,11 +1232,13 @@
                     </div>
                     <div class="project-info">
                         <h3>Notes Application</h3>
-                        <p>A clean and stunning React and Redux based notes application for quick and organized task management.
+                        <p>A clean and stunning React and Redux based notes application for quick and organized task
+                            management.
 
                             Supports create, edit, and delete operations with real-time updates.</p>
                         <div class="project-links">
-                            <a href="https://pastes-app-puce.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://pastes-app-puce.vercel.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
                             <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> View Code</a> -->
                         </div>
                     </div>
@@ -1304,8 +1317,10 @@
     <footer>
         <div class="container">
             <div class="social-links">
-                <a href="https://github.com/muneeb-ak?tab=repositories" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/muneeb-ahmed-khan-68b1a42bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/muneeb-ak?tab=repositories" class="social-link"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muneeb-ahmed-khan-68b1a42bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="social-link"><i class="fab fa-linkedin-in"></i></a>
                 <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-instagram"></i></a> -->
             </div>
